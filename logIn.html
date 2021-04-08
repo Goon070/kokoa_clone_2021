@@ -31,14 +31,17 @@
         </header>
         <main>
             <form>
-                <input placeholder="Email or phone number" />
-                <input placeholder="Password" />
+                <label for="emailnumber">
+                    <input id="emailnumber" type="emailnumber" multiple required placeholder="Email or phone number" />
+                </label>
+                <input type="password" min="8" required placeholder="Password" />
+                <button>Log In</button>
+                <button>Sign Up</button>
+                <button>Find Kakao Account or Password</button>
             </form>
         </main>
         <footer>
-            <button>Log In</button>
-            <button>Sign Up</button>
-            <button>Find Kakao Account or Password</button>
         </footer>
+        <script src="https://kit.fontawesome.com/fa6204219d.js" crossorigin="anonymous"></script>
     </body>
 </html>
