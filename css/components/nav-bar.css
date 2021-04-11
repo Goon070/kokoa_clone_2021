@@ -15,4 +15,41 @@
 }
 .nav__link {
     color: #2e363e;
+    position: relative;
+}
+.nav__notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: tomato;
+    position: absolute;
+    left: 20px;
+    bottom:20px;
+    color: white;
+    font-weight: 600;
+}
+.nav__notification2 {
+    position: absolute;
+    left: 35px;
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 2.5px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+    margin-top: 45px;
+}
+.main__text {
+    font-size: 30px;
+    font-weight: 600;
+}
+.main__icon .fas{
+    margin: 0px 9px;
 }
