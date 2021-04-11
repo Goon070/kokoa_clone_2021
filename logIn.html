@@ -5,11 +5,13 @@
         <meta name="viewport" content="width=device-width" />
         <title>Welcome to KakaoTalk</title>
         <script src="https://kit.fontawesome.com/fa6204219d.js" crossorigin="anonymous"></script>
-        <style>
-        </style>
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="status-bar">
+        <div class="status-bar">
             <div class="status-bar__column">
                 <span>No Service</span>
                 <i class="fas fa-wifi"></i>
@@ -18,8 +20,8 @@
                 <span>18:43</span>
             </div>
             <div class="status-bar__column">
-                <span>11%</span>
-                <i class="fas fa-battery-three-quarters"></i>
+                <span>99%</span>
+                <i class="fas fa-battery-three-quarters fa-lg"></i>
                 <i class="fas fa-bolt"></i>
             </div>
         </div>
@@ -32,9 +34,7 @@
         </header>
         <main>
             <form id="login-form">
-                <label for="emailnumber">
-                    <input id="emailnumber" type="emailnumber" multiple required placeholder="Email or phone number" />
-                </label>
+                <input id="emailnumber" type="text" multiple required placeholder="Email or phone number" />    
                 <input type="password" min="8" required placeholder="Password" />
                 <button>Log In</button>
                 <button>Sign Up</button>
