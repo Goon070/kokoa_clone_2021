@@ -22,22 +22,22 @@
                 <!--To Do : Lightning Icon-->
             </div>
         </div>
-        <header>
-            <h1>Welcome to KakaoTalk</h1>
-            <p>
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+            <p class="welcome-header__text">
                 If you have a Kakao Account,
                 log in with your email or phone number.
             </p>
         </header>
         <main>
-            <form>
+            <form id="login-form">
                 <label for="emailnumber">
                     <input id="emailnumber" type="emailnumber" multiple required placeholder="Email or phone number" />
                 </label>
                 <input type="password" min="8" required placeholder="Password" />
                 <button>Log In</button>
                 <button>Sign Up</button>
-                <button>Find Kakao Account or Password</button>
+                <a href="#">Find Kakao Account or Password</a>
             </form>
         </main>
         <footer>
