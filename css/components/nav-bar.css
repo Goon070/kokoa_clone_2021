@@ -62,5 +62,14 @@
     margin: 0px 5px;
 }
 .main__profile {
-    margin: 10px 15px;
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+    padding: 15px 0px;
+    border-bottom: 1px solid var(--lgray);
+}
+.main__profile__name {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
 }
