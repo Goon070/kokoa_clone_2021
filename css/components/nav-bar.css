@@ -53,3 +53,14 @@
 .main__icon .fas{
     margin: 0px 9px;
 }
+.main__bar {
+    background-color: var(--lgray);
+    padding: 15px 0px;
+    text-align: center;
+}
+.main__bar .fas {
+    margin: 0px 5px;
+}
+.main__profile {
+    margin: 10px 15px;
+}
