@@ -39,20 +39,6 @@
     background-color: tomato;
     border-radius: 2.5px;
 }
-.main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 20px;
-    margin-top: 45px;
-}
-.main__text {
-    font-size: 30px;
-    font-weight: 600;
-}
-.main__icon .fas{
-    margin: 0px 9px;
-}
 .main__bar {
     background-color: var(--lgray);
     padding: 15px 0px;
