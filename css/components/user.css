@@ -19,19 +19,21 @@
 }
 .main__channel__icon {
     display: flex;
-    justify-content: space-between;
     margin: 0px 15px;
     padding: 15px 0px;
     align-items: center;
 }
-.main__channel__icon>i {
+.main__channel__icon__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+}
+.main__channel__icon__box {
+    width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
-.main__channel__icon> .fas {
-    color: var(--yellow);
-}
-.main__channel__icon > span {
+.main__channel__icon__box > span {
     color: var(--gray);
 }
 .main__channel__name {
@@ -39,4 +41,42 @@
     font-size: 20px;
     font-weight: 400;
     color: black;
+}
+
+.main__profile__text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main__profile__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin: 0px 10px 0px 5px;
+}
+.main__profile__subtitle {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 15px;
+    color: var(--gray);
+}
+.main__profile__text div:last-child {
+    
+}
+.main__profile__time {
+    font-size: 13px;
+    color: var(--gray);
+    padding-right: 17px;
+}
+.main__profile__circle {
+    width: 23px;
+    height: 23px;
+    border-radius: 12px;
+    background-color: #ff6446;
+    margin: 5px 0px 0px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
 }
