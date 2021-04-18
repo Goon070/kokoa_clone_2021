@@ -27,7 +27,7 @@
 .main__profile__name {
     margin-left: 15px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: bolder;
 }
 .main__channel {
     display: flex;
