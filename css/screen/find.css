@@ -57,8 +57,54 @@ img {
     font-weight: bold;
 }
 .main__openchat__content {
-    margin-top: 17px;
+    margin-top: 10px;
 }
 .main__openchat__content__box {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+}
+.main__openchat__content__textbox {
+
+}
+.main__openchat__content__textbox>div {
+    margin-bottom: 10px;
+    color: var(--gray);
+}
+.main__openchat__content__textbox>div:first-child {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.main__openchat__content__box:first-child {
+    border-bottom: 2px solid var(--lgray);
+}
+.main__openchat__content__box>div:last-child>img {
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+}
+.main__openchat__content__box>div:last-child>div {
+    min-width: 40px;
+    height: 25px;
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    color: white;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 15px;
+    position: absolute;
+    bottom: 20px;
+    right: 7px;
+}
+.main__openchat__content__box>div:last-child>div>div {
+    font-size: 14px;
+}
+.main__openchat__content__textbox>div:last-child>span:last-child {
+    color: rgb(255, 86, 213);
+    font-size: bold;
 }

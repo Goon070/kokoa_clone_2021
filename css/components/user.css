@@ -1,9 +1,28 @@
 .main__profile {
     display: flex;
-    align-items: center;
     margin: 0px 15px;
     padding: 15px 0px;
     border-bottom: 1px solid var(--lgray);
+}
+.main__profile__chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+    padding: 15px 0px;
+}
+.main__profile__chat>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.main__profile__chat>div:last-child>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin: 0px 10px 0px 5px;
+    border: 1px solid var(--lgray);
 }
 .main__profile__name {
     margin-left: 15px;
@@ -47,6 +66,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 6px;
 }
 .main__profile__img {
     width: 60px;
