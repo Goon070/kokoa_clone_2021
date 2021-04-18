@@ -15,3 +15,6 @@
 .main__icon>button {
     background-color: white;
 }
+.main__icon>button i {
+    font-size: 23px;
+}
