@@ -8,6 +8,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user.css";
+@import "components/no-mobile.css";
 
 /* Screen */
 @import "screen/login.css";
