@@ -118,3 +118,23 @@ img {
     align-items: center;
     justify-content: space-between;
 }
+
+@keyframes heartBeat{
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(1.5);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.main__openchat__content__box>div:last-child>div:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
