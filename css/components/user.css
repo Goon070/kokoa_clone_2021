@@ -74,6 +74,9 @@
     border-radius: 20px;
     margin: 0px 10px 0px 5px;
 }
+.main__profile__text:hover {
+    cursor: default;
+}
 .main__profile__subtitle {
     margin-top: 5px;
     margin-left: 15px;

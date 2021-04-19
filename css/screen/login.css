@@ -35,17 +35,17 @@
 #login-form input::placeholder {
     opacity: 0.6;
 }
-.login-form>button:first-child {
+.login-form__button__fir {
     background-color: var(--yellow);
     transition: background-color ease-in-out;
 }
-.login-form>button:first-child :hover {
+.login-form__button__fir:hover {
     background-color: rgb(255, 216, 42);
 }
-.login-form>button:last-child  {
+.login-form__button__sec  {
     transition: background-color ease-in-out;
 }
-.login-form>button:last-child :hover {
+.login-form__button__sec:hover {
     background-color: rgb(231, 231, 231);
 }
 
